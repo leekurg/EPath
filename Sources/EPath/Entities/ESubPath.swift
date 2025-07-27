@@ -271,6 +271,7 @@ public extension ESubPath {
 }
 
 // MARK: Draw
+@available(iOS 15, macOS 12, *)
 public extension ESubPath {
     func drawDestinations(
         in context: GraphicsContext,

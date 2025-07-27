@@ -5,7 +5,7 @@ import PackageDescription
 
 let package = Package(
     name: "EPath",
-    platforms: [.iOS(.v16)],
+    platforms: [.iOS(.v13), .macOS(.v10_15), .tvOS(.v13), .visionOS(.v1), .watchOS(.v4)],
     products: [
         .library(
             name: "EPath",

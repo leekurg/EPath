@@ -115,6 +115,7 @@ public struct EPath {
     }
 }
 
+@available(iOS 15, macOS 12, *)
 public extension EPath {
     /// Draws destination point for every element of this path.
     func drawDestinations(
